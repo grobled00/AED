@@ -1,7 +1,15 @@
-Ejemplo de fórmula en linea $$ x+y=0 $$.
+% CUERPO
 \begin{document}
-Ejemplo de fórmula con subíndices
+Ejemplo de fórmula en linea $ x+y=0 $.
+
+Ejemplo de fórmula desplegada
 
 $$ 
-x_i+y_j=0
+x+y=0
 $$
+Ejemplo de fórmula con el entorno \texttt{equation}
+
+\begin{equation}
+x+y=0
+\end{equation}
+\end{document}
